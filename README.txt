@@ -24,7 +24,7 @@
 #
 #     Names, traits, class, abilities, wealth, equipment, and spells are all
 #     randomly generated according to the character guidelines given in their
-#     respectives sources. For instance, Black-Hack classes (warrior, thief,
+#     respective sources. For instance, Black-Hack classes (warrior, thief,
 #     cleric, conjurer) will have their ability scores generated via 3d6,
 #     while Rad-Hack humans will use 4d6 and drop lowest, mutants a d20, robots
 #     a 27 point-buy, and psionics a mix of 3d6 for physical stats and 4d6 drop
