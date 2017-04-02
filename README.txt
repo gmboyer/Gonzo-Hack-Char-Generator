@@ -1,11 +1,11 @@
 ###############################################################################
-#         Random Gonzo Character Generator for Black Hack + Rad Hack          #
+#         Random Gonzo Character Generator for Black Hack + Rad-Hack          #
 #                with random character traits from Maze Rats                  #
 #                                                                             #
 #                 Black Hack by David Black, available free:                  #
 #               https://the-black-hack.jehaisleprintemps.net/                 #
 #                                                                             #
-#                Rad Hack by Kark Stjernberg, available free:                 #
+#                Rad-Hack by Kark Stjernberg, available free:                 #
 #            http://rad-hack.jehaisleprintemps.net/english/index.html         #
 #                                                                             #
 #                  Maze Rats by Ben Milton, available free:                   #
@@ -18,13 +18,13 @@
 #                                                                             #
 ###############################################################################
 # About:
-#     This generator creates a random level 1 character for Black-Hack and Rad-
+#     This generator creates a random level 1 character for Black Hack and Rad-
 #     Hack using the flavorful character traits from Maze Rats and names 
 #     borrowed from free online fantasy name generators.
 #
 #     Names, traits, class, abilities, wealth, equipment, and spells are all
 #     randomly generated according to the character guidelines given in their
-#     respective sources. For instance, Black-Hack classes (warrior, thief,
+#     respective sources. For instance, Black Hack classes (warrior, thief,
 #     cleric, conjurer) will have their ability scores generated via 3d6,
 #     while Rad-Hack humans will use 4d6 and drop lowest, mutants a d20, robots
 #     a 27 point-buy, and psionics a mix of 3d6 for physical stats and 4d6 drop
