@@ -18,12 +18,12 @@
 #                                                                             #
 ###############################################################################
 # About:
-#     This generator creates a random level 1 character for Black Hack and Rad
+#     This generator creates a random level 1 character for Black-Hack and Rad-
 #     Hack using the flavorful character traits from Maze Rats and names 
 #     borrowed from free online fantasy name generators.
 #
-#     Names, traits, class, abilities, wealth, equipment, and spells will all
-#     be randomly generated according to the character guidelines given in their
+#     Names, traits, class, abilities, wealth, equipment, and spells are all
+#     randomly generated according to the character guidelines given in their
 #     respectives sources. For instance, Black-Hack classes (warrior, thief,
 #     cleric, conjurer) will have their ability scores generated via 3d6,
 #     while Rad-Hack humans will use 4d6 and drop lowest, mutants a d20, robots
@@ -50,5 +50,7 @@
 #     Formatting output to look pretty
 #     Overall condensing and cleanup of code
 #
+#
+# Generator code by Grayson Boyer (gmboyer@asu.edu)
+#
 ###############################################################################
-# Generator code by Grayson Boyer
