@@ -1,0 +1,187 @@
+################################################################################
+MIRAGE EAGLE THE THIEF
+
+
+Sex: Female
+Appearance: Haggard
+Detail: Dreadlocks
+Background: Highwayman
+Clothing: Embroidered
+Personality: Savage
+Mannerism: Trails off
+
+
+HP: 8
+HP per level/Resting: d6
+Weapons & Armor: All Swords, All Bows, Daggers, Gambeson, Leather, Small Shields
+Attack Damage: 1d6 if armed, 1d4 if unarmed or improvising
+
+
+STR 12
+DEX 10
+CON 13
+INT 12
+WIS 11
+CHA 16
+
+
+Special Features:
+        Roll with Advantage when testing DEX to avoid damage or effects from traps and magical devices.
+        Roll with Advantage when attacking from behind and deals 2d6 or 2d4 + the Thief's level damage.
+        Roll with Advantage when performing delicate tasks, climbing, hearing sounds, moving silently, understanding written languages and opening locks.
+
+
+Leveling up: Roll to see if attributes increase. Roll twice for DEX or WIS.
+
+
+Money: 0 coins
+Equipment:      Dagger x2
+                Gambeson (AP 2)
+                Thieves Tools
+                Small Shield (AP 2)
+                Small Sack
+                Bottle of Wine
+                Flask of oil (d6 usage die)
+                Iron Spikes
+
+################################################################################					
+ALOYSIUS THE MUTANT
+
+
+Sex: Male-ish
+Appearance: Delicate
+Detail: Bushy eyebrows
+Background: Hedge knight
+Clothing: Exotic
+Personality: Loyal
+Mannerism: Rhyming
+
+
+HP: 7
+HP per level/Resting: d6
+Ability die for mutations: d4
+Weapons & Armor: All ranged and up to medium melee and up to medium armor and small shields
+Attack Damage: 1d6 if armed, 1d4 if unarmed or improvising
+
+
+STR 5
+DEX 18
+CON 10
+INT 5
+WIS 9
+CHA 2
+
+
+Special features:
+        Used to the Glow: Mutants exposed to harmful radiation roll their CON save with Advantage.
+        Leveling up: roll to see if attributes increase. Roll 1d6 to determine what attribute to roll twice for. Increase the ability die one step on even levels. Gain a random mutation on uneven levels, to a max of five. When gaining a sixth mutation, that one replaces
+the old one.
+        Adaptive: Upon leveling up, a mutant can swap two attributes around.
+        Mutations: To use a mutation, first test the attributes that corresponds with what you are attempting to do, then roll the Ability Die to check if it decreases a step. If a roll of 20 is made while using a mutation, the mutation permanently alters the mutant's appearance, has the opposite effect, targets an ally, etc.
+                Exoskeleton (R) : Gain 2 Armor Points for the next minute.
+                Winged : Gain ability to fly up to far-away range.
+
+
+Ammo: 0 slugs
+Equipment:
+                Iron Pipe (light melee) (d4 usage die)
+                Rusty Spikes
+                Large Sack
+                Bottle of Wine
+                Torches (x6, each torch has a d6 usage die)
+
+################################################################################
+TEMPORAL GLOOM THE PSIONIC
+
+
+Sex: Female
+Appearance: Bullnecked
+Detail: Dark skinned
+Background: Deserter
+Clothing: Grimy
+Personality: Rude
+Mannerism: Mumbles
+
+
+HP: 8
+HP per level/Resting: d4
+Ability die for psionics: d4
+Weapons & Armor: Light melee and ranged weapons and light armor
+Attack Damage: 1d4 if armed, 1 if unarmed or improvising
+
+
+STR 5
+DEX 12
+CON 8
+INT 14
+WIS 16
+CHA 8
+
+
+Special Features:
+        Mental Fortitude: Roll with advantage when testing to avoid damage or effects from Psionic sources.
+        Precognition: Psionics can choose to reroll one roll per session and will do so with Advantage.
+        Leveling up: Roll to see if attributes increase. Roll twice for INT and WIS. Increase the Ability die one step on uneven levels. Gain a random Psionic Power on even levels, to a max of five. When gaining a sixth Psionic Power, that one replaces an old one.
+        Psionic Powers: To use a psionic power, first test the attribute that corresponds with what you are attempting to do, then roll the Ability Die to check if it decreases a step. If a roll of 20 is made while using a psionic power, the user blacks out, targets an a
+lly, the psionic power has the opposite effect etc. Robots or other constructs are immune to psionic powers, unless otherwise stated.
+                Healing Energy : Heal nearby target for d6+level HP.
+                Nightmare Visions : Nearby target panics and tries to run away and/or hide.
+
+
+
+
+Ammo: 0 slugs
+Equipment:
+                Knife (light melee) (d8 usage die)
+                Light Armor (AP 2) (d4 usage die)
+                Rusty Spikes
+                Large Sack
+                Bottle of Wine
+                Torches (x6, each torch has a d6 usage die)
+
+################################################################################
+NOVELLA THE CONJURER
+
+
+Sex: Female
+Appearance: Lanky
+Detail: Gold tooth
+Background: Galley slave
+Clothing: Ostentatious
+Personality: Sarcastic
+Mannerism: Cryptic
+
+
+HP: 6
+HP per level/Resting: d4
+Weapons & Armor: 1-handed Sword and Staff
+Attack Damage: 1d8 if armed, 1d6 if unarmed or improvising
+
+
+STR 8
+DEX 11
+CON 12
+INT 17
+WIS 7
+CHA 12
+
+
+Special Features:
+        Roll with Advantage when testing INT to avoid damage or effects from spells or magical devices.
+        Arcane Spellcasting: Conjurers can cast a number of Arcane Spells per day, see the Spellcasting section.
+
+
+Leveling up: Roll to see if attributes increase. Roll twice for INT or WIS.
+
+
+Money: 84 coins
+Equipment:      Staff (2H)
+                Large Sack
+                Wineskin (d6 usage die)
+                Flask of oil (d6 usage die)
+                Iron Spikes
+Spellbook:
+                Lvl 1: Sleep : Puts 4d6 HD 'worth' of beings to sleep - 8hrs.
+                Lvl 1: Light : Create dim light from a Nearby spot or object for 1 hr.
+                Lvl 1: Charm : A Nearby target obeys commands. Test WIS each turn to see if the effect lasts.
+                Lvl 1: Detect Magic : Everything Nearby that is magic glows for 5 mins.
