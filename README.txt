@@ -21,6 +21,8 @@
 #     This generator creates a random level 1 character for Black Hack and Rad-
 #     Hack using the flavorful character traits from Maze Rats and names 
 #     borrowed from free online fantasy name generators.
+
+#     Check out 'Four generated characters.txt' for examples of what to expect.
 #
 #     Names, traits, class, abilities, wealth, equipment, and spells are all
 #     randomly generated according to the character guidelines given in their
