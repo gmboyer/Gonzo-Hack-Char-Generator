@@ -51,6 +51,6 @@
 #     Overall condensing and cleanup of code
 #
 #
-# Generator code by Grayson Boyer (gmboyer@asu.edu)
+# Generator code by Grayson Boyer
 #
 ###############################################################################
