@@ -53,8 +53,8 @@
 ###############################################################################
 
 import random
-from WMLPnames import *
-from WMLPdescriptions import *
+from RandomGonzoNames import *
+from RandomGonzoDesc import *
 
 class_list = [  "Human",    "Mutant",   "Robot",    "Psionic",
                 "Warrior",  "Thief",    "Cleric",   "Conjurer"]
