@@ -149,7 +149,6 @@ clothing_list = [
     "Perfumed",
     "Practical",
     "Rumpled",
-    "Scant",
     "Sigils",
     "Singed",
     "Tasteless",

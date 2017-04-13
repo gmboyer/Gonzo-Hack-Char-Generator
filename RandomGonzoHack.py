@@ -53,8 +53,9 @@
 ###############################################################################
 
 import random
-from WMLPnames import *
-from WMLPdescriptions import *
+from RandomGonzoDesc import *
+from RandomGonzoNames import *
+from RandomMazeRatLists import *
 
 class_list = [  "Human",    "Mutant",   "Robot",    "Psionic",
                 "Warrior",  "Thief",    "Cleric",   "Conjurer"]
@@ -63,7 +64,7 @@ rand_class = random.choice(class_list)
 
 # for testing purposes:
 # rand_class = random.choice(["Human",    "Mutant",   "Robot",    "Psionic"])
-# rand_class = "Human"
+rand_class = "Maze Rat"
 
 # function for rolling an N-sided die
 def rolldN(N):
@@ -131,6 +132,33 @@ background = random.choice(background_list)
 clothing = random.choice(clothing_list)
 personality = random.choice(personality_list)
 mannerism = random.choice(mannerism_list)
+
+# function for a random maze rat spell
+def rand_maze_rat_spell():
+
+    rand_mr_spell_combo = random.choice([
+        [physical_effect, physical_form],
+        [physical_effect, ethereal_form],
+        [ethereal_effect, physical_form],
+        [ethereal_effect, ethereal_form],
+        [physical_element, physical_form],
+        [physical_element, ethereal_form],
+        [ethereal_element, physical_form],
+        [ethereal_element, ethereal_form],
+        [physical_effect, physical_element],
+        [physical_effect, ethereal_element],
+        [ethereal_effect, physical_element],
+        [ethereal_effect, ethereal_element],
+        ])
+
+    word1 = random.choice(rand_mr_spell_combo[0])
+    word2 = random.choice(rand_mr_spell_combo[1])
+
+    return str(word1 + " " + word2)
+
+    #return str(random.choice(mr_physical_effect) + " " + random.choice(mr_physical_element))
+
+
 
 # function for a random point buy system for Robot characters
 def rand_robotbuy():
@@ -1290,3 +1318,128 @@ if rand_class == "Conjurer":
     spells = Buy_Spells(rand_class)
     for n in range(0, len(spells)):
         print "\t\t", spells[n]
+
+
+#### MAZE RAT ####
+# Generate stats for a Maze Rat (black hack conversion)
+if rand_class == "Maze Rat":
+    print "\n"
+    print char_name.upper(),"THE MAZE RAT"
+    print "\n"
+    print "Sex:", char_sex
+    print "Appearance:", physical_description
+    print "Detail:", physical_detail
+    print "Background:", background
+    print "Clothing:", clothing
+    print "Personality:", personality
+    print "Mannerism:", mannerism
+    print "\n"
+
+    # check if starting weapon is 2-handed or a bow
+    # one-in-four chance of favoring a 2-handed weapon
+    favor_roll = rolldN(6)
+    if favor_roll <= 2:
+        starting_weapon = random.choice(["Claymore (2H)",
+                                        "Warhammer (2H)",
+                                        "Battleaxe (2H)"])
+    elif 2 < favor_roll < 6:
+        starting_weapon = random.choice(["Sword (1H)", "Mace (1H)", "Axe (1H)"])
+    else:
+        starting_weapon = "Bow and Quiver of Arrows (d10 usage die)"
+
+    # Randomly choose feature here
+    feature_roll = rolldN(3)
+    if feature_roll == 1:
+        extraprof = random.choice([
+            "all shields",
+            "all armors",
+            "all weapons",
+            ])
+
+        feature = "+1 time per combat, gain advantage on a STR or DEX test " \
+            "when attacking or defending." \
+            "\n+2 to max hp (already applied) " \
+            "\nProficiency with " + extraprof + " (already applied)"
+        extrahp = 2
+
+    elif feature_roll == 2:
+        feature = "A spell slot that currently contains:\n\t" \
+            + rand_maze_rat_spell()
+        extrahp = 0
+        extraprof = ""
+    else:
+        path = random.choice([
+            "Briarborn: tracking, foraging, survival",
+            "Fingersmith: tinkering, picking locks or pockets",
+            "Roofrunner: climbing, leaping, balancing",
+            "Shadowjack: moving silently, hiding in shadows",
+            ])
+        feature = "Gain advantage on tests related to the following path:\n\t" \
+            + path
+        extrahp = 0
+        extraprof = ""
+
+    if extraprof != "all weapons":
+        weaponprof = starting_weapon
+    else:
+        weaponprof = extraprof
+
+    if extraprof != "all shields":
+        shieldprof = ", small shields"
+    else:
+        shieldprof = ", " + extraprof
+
+    if extraprof != "all armors":
+        armorprof = ", and gambeson"
+    else:
+        armorprof = ", and " + extraprof
+
+    # print their stats and abilities
+    print "HP:", rolldN(6) + 4 + extrahp
+    print "HP per level/Resting: d6"
+
+    print "Weapons & Armor: " + weaponprof + shieldprof + armorprof
+    print "Attack Damage: 1d6 if armed, 1d4 if unarmed or improvising"
+
+    print "\n"
+
+    stat = roll_3d6()
+    stat_list = [stat]
+    for num in range(1,6):
+        if stat >= 15:
+            stat = rolldN(6) + rolldN(6) + 2
+        else:
+            stat = roll_3d6()
+        stat_list.append(stat)
+        num = num + 1
+
+    print "STR", stat_list[0]
+    print "DEX", stat_list[1]
+    print "CON", stat_list[2]
+    print "INT", stat_list[3]
+    print "WIS", stat_list[4]
+    print "CHA", stat_list[5]
+
+    print "\n"
+    print "Special Features:"
+    print feature
+    print "\n"
+
+    print "Leveling up: Roll to see if attributes increase. Roll twice for " \
+        "your attribute of choice. On even-numbered levels, choose a class " \
+        "feature from the following list: " \
+        "\n\t+1 time per combat, gain advantage on a STR or DEX test when " \
+        "attacking or defending. Additionally, gain +2 max hp and " \
+        "proficiency with all weapons, all armors, or all shields." \
+		"\n\t+1 spell slot and cast +1 spell per day." \
+		"\n\tChoose one path from the four below. Gain advantage on related " \
+        "tests." \
+		"\n\t\tBriarborn: tracking, foraging, survival" \
+		"\n\t\tFingersmith: tinkering, picking locks or pockets" \
+		"\n\t\tRoofrunner: climbing, leaping, balancing" \
+		"\n\t\tShadowjack: moving silently, hiding in shadows"
+
+    print "\n"
+
+    print "Money: 0 coins"
+    print "Equipment:\t", starting_weapon
