@@ -53,9 +53,14 @@
 ###############################################################################
 
 import random
+<<<<<<< HEAD
 from RandomGonzoDesc import *
 from RandomGonzoNames import *
 from RandomMazeRatLists import *
+=======
+from RandomGonzoNames import *
+from RandomGonzoDesc import *
+>>>>>>> origin/master
 
 class_list = [  "Human",    "Mutant",   "Robot",    "Psionic",
                 "Warrior",  "Thief",    "Cleric",   "Conjurer"]
