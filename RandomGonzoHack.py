@@ -53,14 +53,10 @@
 ###############################################################################
 
 import random
-<<<<<<< HEAD
 from RandomGonzoDesc import *
 from RandomGonzoNames import *
 from RandomMazeRatLists import *
-=======
-from RandomGonzoNames import *
-from RandomGonzoDesc import *
->>>>>>> origin/master
+
 
 class_list = [  "Human",    "Mutant",   "Robot",    "Psionic",
                 "Warrior",  "Thief",    "Cleric",   "Conjurer"]
@@ -1436,15 +1432,19 @@ if rand_class == "Maze Rat":
         "\n\t+1 time per combat, gain advantage on a STR or DEX test when " \
         "attacking or defending. Additionally, gain +2 max hp and " \
         "proficiency with all weapons, all armors, or all shields." \
-		"\n\t+1 spell slot and cast +1 spell per day." \
-		"\n\tChoose one path from the four below. Gain advantage on related " \
+        "\n\t+1 spell slot and cast +1 spell per day." \
+        "\n\tChoose one path from the four below. Gain advantage on related " \
         "tests." \
-		"\n\t\tBriarborn: tracking, foraging, survival" \
-		"\n\t\tFingersmith: tinkering, picking locks or pockets" \
-		"\n\t\tRoofrunner: climbing, leaping, balancing" \
-		"\n\t\tShadowjack: moving silently, hiding in shadows"
+        "\n\t\tBriarborn: tracking, foraging, survival" \
+        "\n\t\tFingersmith: tinkering, picking locks or pockets" \
+        "\n\t\tRoofrunner: climbing, leaping, balancing" \
+        "\n\t\tShadowjack: moving silently, hiding in shadows"
 
     print "\n"
 
     print "Money: 0 coins"
     print "Equipment:\t", starting_weapon
+    for n in xrange(6):
+        chosen_item = random.choice(mr_item_list)
+        mr_item_list.pop(mr_item_list.index(chosen_item))
+        print "\t\t", chosen_item

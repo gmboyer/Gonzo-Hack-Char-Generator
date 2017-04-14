@@ -28,13 +28,13 @@ mr_item_list = [
     "Medicine (d6 usage die)",
     "Metal File",
     "Rations (d6 usage die)",
-    "Rope (50 ft.)"
+    "Rope (50 ft.)",
     "Steel Wire",
     "Shovel",
     "Steel Mirror",
     "Ten Foot Pole",
     "Tinderbox (d6 usage die)",
-    "Torch (d6 usage die)"
+    "Torch (d6 usage die)",
     "Vial of Acid",
     "Vial of Poison",
     "Waterskin (d6 usage die)",
